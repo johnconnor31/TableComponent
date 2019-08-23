@@ -1,0 +1,31 @@
+h2 {
+  text-align: center;
+}
+#tableElement {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tableElement td,
+#tableElement th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tableElement tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tableElement tr:hover {
+  background-color: #ddd;
+}
+
+#tableElement th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4c53af;
+  color: white;
+  width: 100%;
+}
